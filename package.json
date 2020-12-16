@@ -1,0 +1,27 @@
+{
+  "name": "groupme-library",
+  "version": "1.0.0",
+  "description": "Library of GroupMe functions and express middleware to process GroupMe messages.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheReformedAlloy/Spazihi.git"
+  },
+  "keywords": [
+    "GroupMe",
+    "Node.js",
+    "Express"
+  ],
+  "author": "Clint Mooney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheReformedAlloy/Spazihi/issues"
+  },
+  "homepage": "https://github.com/TheReformedAlloy/Spazihi#readme"
+}
