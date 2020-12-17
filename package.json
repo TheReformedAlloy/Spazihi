@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require babel-core/register"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/TheReformedAlloy/Spazihi/issues"
   },
-  "homepage": "https://github.com/TheReformedAlloy/Spazihi#readme"
+  "homepage": "https://github.com/TheReformedAlloy/Spazihi#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^3.0.0"
+  },
+  "devDependencies": {}
 }
